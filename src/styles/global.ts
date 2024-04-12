@@ -10,6 +10,8 @@ const GlobalStyle = createGlobalStyle`
     --offwhite: #F3F2F1;
     --green: #00796B;
     --red: #D32F2F;
+    
+    --shadow: 0 1px 3px rgba(0, 0, 0, .26);
   }
 
   *, *::before, *::after {
@@ -18,6 +20,7 @@ const GlobalStyle = createGlobalStyle`
   
   html, body {
     font-family: 'Roboto', sans-serif;
+    background: var(--offwhite);
     margin: 0;
     padding: 0;
     -webkit-font-smoothing: antialiased;
