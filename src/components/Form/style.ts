@@ -1,7 +1,7 @@
 import { Button, CardContent, CardHeader, FormHelperText } from "@mui/material";
 import styled from "styled-components";
 
-export const Wrapper = styled.form`
+export const Form = styled.form`
   background: var(--white);
   border-radius: unset;
   box-shadow: var(--shadow);
