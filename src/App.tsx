@@ -5,7 +5,7 @@ import { theme } from './styles/global';
 function App() {
   return (
     <ThemeProvider theme={theme}>
-      <Stack spacing={4}>
+      <Stack spacing={4} alignItems={"center"}>
         <Header />
         <Box px={5}>
           <Form />
