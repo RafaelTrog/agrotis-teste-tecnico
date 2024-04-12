@@ -3,6 +3,7 @@ import '@fontsource/roboto/300.css';
 import '@fontsource/roboto/400.css';
 import '@fontsource/roboto/500.css';
 import '@fontsource/roboto/700.css';
+import { createTheme } from "@mui/material";
 
 const GlobalStyle = createGlobalStyle`
   :root {
@@ -30,5 +31,13 @@ const GlobalStyle = createGlobalStyle`
     font: inherit;
   }
 `
+
+export const theme = createTheme({
+  palette: {
+    primary: {
+      main: "#00796B"
+    }
+  }
+});
 
 export default GlobalStyle;

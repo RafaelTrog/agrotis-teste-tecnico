@@ -1,16 +1,17 @@
-// import { useState } from 'react'
-import { Box, Stack } from '@mui/material'
+import { Box, Stack, ThemeProvider } from '@mui/material'
 import { Form, Header } from './components'
-// import viteLogo from '/vite.svg'
+import { theme } from './styles/global';
 
 function App() {
   return (
-    <Stack spacing={4}>
-      <Header />
-      <Box px={5}>
-        <Form />
-      </Box>
-    </Stack>
+    <ThemeProvider theme={theme}>
+      <Stack spacing={4}>
+        <Header />
+        <Box px={5}>
+          <Form />
+        </Box>
+      </Stack>
+    </ThemeProvider>
   )
 }
 

@@ -2,9 +2,9 @@ import { Button, CardContent, CardHeader, FormHelperText } from "@mui/material";
 import styled from "styled-components";
 
 export const Wrapper = styled.form`
-    background: var(--white);
-    border-radius: unset;
-    box-shadow: var(--shadow);
+  background: var(--white);
+  border-radius: unset;
+  box-shadow: var(--shadow);
 `
 
 export const Header = styled(CardHeader)`
@@ -23,6 +23,10 @@ export const Header = styled(CardHeader)`
 export const Content = styled(CardContent)`
   && {
     padding: 1rem;
+  }
+
+  && .MuiInput-root:hover::before {
+    border-color: var(--green);
   }
 `
 
