@@ -2,11 +2,14 @@ import { Button, CardContent, CardHeader, FormHelperText } from "@mui/material";
 import styled from "styled-components";
 
 export const Form = styled.form`
-  width: 75rem;
-  max-width: 75rem;
+  width: 100%;
   background: var(--white);
   border-radius: unset;
   box-shadow: var(--shadow);
+
+  @media (width >= 1200px) {
+    width: 75rem;
+  }
 `
 
 export const Header = styled(CardHeader)`

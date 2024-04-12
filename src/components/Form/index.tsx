@@ -101,7 +101,11 @@ export default function Form() {
       nome,
       dataInicial: dataInicial.toISOString(),
       dataFinal: dataFinal.toISOString(),
-      infosPropriedade: selectedProperty,
+      infosPropriedade: {
+        id: selectedProperty?.id,
+        nome: selectedProperty?.nome
+      },
+      cnpj: selectedProperty?.cnpj,
       laboratorio: selectedLaboratory,
       observacoes
     };
