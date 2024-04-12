@@ -259,7 +259,6 @@ export default function Form() {
                 <Select
                   labelId="laboratory"
                   label="Laboratório"
-                  displayEmpty
                   error={errors.idLaboratorio}
                   {...register("idLaboratorio")}
                   {...inputConfigs}
