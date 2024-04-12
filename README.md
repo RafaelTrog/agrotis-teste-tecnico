@@ -35,4 +35,4 @@ npm run dev
 
 
 ***
-#### Desenvolvidor por [Rafael Trog](https://rafaeltrog.com)
+#### Desenvolvidor por [Rafael Trog](https://rafaeltrog.com) 😎
