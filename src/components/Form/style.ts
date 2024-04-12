@@ -2,6 +2,8 @@ import { Button, CardContent, CardHeader, FormHelperText } from "@mui/material";
 import styled from "styled-components";
 
 export const Form = styled.form`
+  width: 75rem;
+  max-width: 75rem;
   background: var(--white);
   border-radius: unset;
   box-shadow: var(--shadow);
